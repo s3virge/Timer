@@ -1,0 +1,252 @@
+TABLE {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BORDER-COLLAPSE: collapse
+}
+TABLE TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.menu {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #4d4d4d; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.menu A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #4d4d4d; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.menu A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #4d4d4d; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.menu A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: #ffffff; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.right_news {
+	PADDING-LEFT: 3px; FONT-SIZE: 9pt; MARGIN-LEFT: 5px; BORDER-LEFT: #000000 2px solid; COLOR: #000000; FONT-FAMILY: Arial, Tahoma; TEXT-DECORATION: none
+}
+.right_news:hover {
+	BORDER-LEFT: #a14c4e 2px solid; COLOR: #a14c4e
+}
+.j_menu {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.j_menu A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.j_menu A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.j_menu A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #bbd812; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.textBody {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.textBody A:link {
+	FONT-SIZE: 10pt; COLOR: #a14c4e; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.textBody A:visited {
+	FONT-SIZE: 10pt; COLOR: #8a4042; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.textBody A:hover {
+	FONT-SIZE: 10pt; COLOR: #502829; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.textRateItOpinion {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.textRateItUserName {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.anons {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.anons_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.anons1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.anons1_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.anons1_bold A {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.anons_big {
+	FONT-WEIGHT: normal; FONT-SIZE: 60pt; COLOR: #ffffff; LINE-HEIGHT: 50pt; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; LETTER-SPACING: 0pt; TEXT-DECORATION: none
+}
+.anons_big1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff9c00; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_gray {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #a3a5a4; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_gray A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #a3a5a4; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_gray A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #a3a5a4; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_gray A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #bbd812; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_grayalt {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #a3a5a4; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_grayalt A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #a3a5a4; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_grayalt A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #a3a5a4; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_grayalt A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #00ccff; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_news {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #cccccc; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_news A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #cccccc; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_news A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #cccccc; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_news A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #00ccff; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_black {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_black A {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_black A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #a14c4e; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.text_else {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff9c00; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_else A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff9c00; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_else A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff9c00; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_else A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_else_big {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ff9c00; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_else_big A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ff9c00; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_else_big A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ff9c00; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_else_big A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 14pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_news {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #d3e2df; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.journal_head {
+	FONT-WEIGHT: normal; FONT-SIZE: 16pt; COLOR: #000000; LINE-HEIGHT: 18pt; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff9c00; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.anons1_bold A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.anons1_bold A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.anons1_bold A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.anons_bold A {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_small {
+	FONT-WEIGHT: normal; FONT-SIZE: 6pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.textBodySm2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 6pt; COLOR: #dddddd; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.textBodySm2 A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 6pt; COLOR: #dddddd; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.textBodySm2 A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 6pt; COLOR: #dddddd; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.textBodySm2 A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 6pt; COLOR: #dddddd; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 16pt; COLOR: #bbd812; LINE-HEIGHT: 18pt; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.head_yellow {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #bbd812; FONT-STYLE: normal; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.text_yellow {
+	FONT-SIZE: 8pt; COLOR: #bbd812; FONT-STYLE: normal; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.text_yellow A:link {
+	FONT-SIZE: 8pt; COLOR: #bbd812; FONT-STYLE: normal; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+.text_yellow A:visited {
+	FONT-SIZE: 8pt; COLOR: #bbd812; FONT-STYLE: normal; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+.text_yellow A:hover {
+	FONT-SIZE: 8pt; COLOR: #bbd812; FONT-STYLE: normal; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+.text_white {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.arch_head {
+	FONT: 10pt Arial
+}
+.stairs {
+	PADDING-LEFT: 10px; FONT-SIZE: 28pt; BACKGROUND: url(http://www.xakep.ru/i/img_new/stairs_2.jpg) #000000 no-repeat; WIDTH: 100%; COLOR: #ffffff; PADDING-TOP: 69px; FONT-FAMILY: arial; HEIGHT: 97px; TEXT-ALIGN: left
+}
+.cutted_header {
+	PADDING-LEFT: 10px; FONT-SIZE: 28pt; BACKGROUND: url(http://www.xakep.ru/i/img_new/grad12.jpg) #666666 no-repeat; WIDTH: 100%; PADDING-TOP: 10px; FONT-FAMILY: arial; TEXT-ALIGN: left
+}
+.text_hits {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #555555; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_hits A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #555555; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_hits A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #555555; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.text_hits A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #ff9c00; FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+.ddMenu {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #4d4d4d; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.ddMenu A:link {
+	PADDING-LEFT: 8px; FONT-SIZE: 8pt; COLOR: #4d4d4d; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.ddMenu A:visited {
+	PADDING-LEFT: 8px; FONT-SIZE: 8pt; COLOR: #4d4d4d; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}
+.ddMenu A:hover {
+	PADDING-LEFT: 8px; FONT-SIZE: 8pt; CURSOR: hand; COLOR: red; LINE-HEIGHT: 12pt; FONT-STYLE: normal; FONT-FAMILY: Tahoma, sans-serif; TEXT-DECORATION: none
+}

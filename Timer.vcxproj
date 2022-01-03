@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{BEC95CF2-4A37-3DEA-87AB-0314F9C3CEDB}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>true</EmbedManifest>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <EnableUAC>true</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Autorun.cpp" />
+    <ClCompile Include="DlgAdjustments.cpp" />
+    <ClCompile Include="DlgAlarmSignal.cpp" />
+    <ClCompile Include="CDIB.CPP" />
+    <ClCompile Include="DlgGetPassword.cpp" />
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="LCDDigits.cpp" />
+    <ClCompile Include="LCDDots.cpp" />
+    <ClCompile Include="MenuXP.cpp" />
+    <ClCompile Include="DlgPasswordProtect.cpp" />
+    <ClCompile Include="DefaultSettings.cpp" />
+    <ClCompile Include="MultiLanguage.cpp" />
+    <ClCompile Include="SButton.cpp" />
+    <ClCompile Include="DlgSettings.cpp" />
+    <ClCompile Include="SkinBaseButton.cpp" />
+    <ClCompile Include="StaticTime.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TimerDlg.cpp" />
+    <ClCompile Include="Tools.cpp" />
+    <ClCompile Include="ToolTips.cpp" />
+    <ClCompile Include="DlgWindowToFollow.cpp" />
+    <ClCompile Include="WndShadow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Autorun.h" />
+    <ClInclude Include="DlgAdjustments.h" />
+    <ClInclude Include="DlgAlarmSignal.h" />
+    <ClInclude Include="CDIB.H" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="DlgGetPassword.h" />
+    <ClInclude Include="Draw.h" />
+    <ClInclude Include="fmod.h" />
+    <ClInclude Include="LCDDigits.h" />
+    <ClInclude Include="LCDDots.h" />
+    <ClInclude Include="MenuXP.h" />
+    <ClInclude Include="MultiLanguage.h" />
+    <ClInclude Include="DlgPasswordProtect.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="DefaultSettings.h" />
+    <ClInclude Include="SButton.h" />
+    <ClInclude Include="DlgSettings.h" />
+    <ClInclude Include="ShortCut.h" />
+    <ClInclude Include="ShutDown.h" />
+    <ClInclude Include="SkinBaseButton.h" />
+    <ClInclude Include="StaticTime.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TimerDlg.h" />
+    <ClInclude Include="Tools.h" />
+    <ClInclude Include="ToolTips.h" />
+    <ClInclude Include="DlgWindowToFollow.h" />
+    <ClInclude Include="WndShadow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Timer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="info\fmod - music &amp; soundeffects sytem (licens).files\fmodlicense.htm" />
+    <None Include="info\fmod - music &amp; soundeffects sytem (licens).files\lfmodlicense.htm" />
+    <None Include="info\FMOD - music &amp; soundeffects sytem (licens).htm" />
+    <None Include="info\железо, номер #026, стр_ 026-066-1, программы для управления питанием.files\banner.htm" />
+    <None Include="info\железо, номер #026, стр_ 026-066-1, программы для управления питанием.files\iframe_bann.htm" />
+    <None Include="info\Железо, номер #026, стр_ 026-066-1, Программы для управления питанием.htm" />
+    <None Include="info\Как долго простаивает операционная система.htm" />
+    <None Include="res\Adjust.bmp" />
+    <None Include="res\aim.cur" />
+    <None Include="res\aim.ico" />
+    <None Include="res\Close.bmp" />
+    <None Include="res\MainWnd.bmp" />
+    <None Include="res\Minimize.bmp" />
+    <None Include="res\Settings.bmp" />
+    <None Include="res\StarStop.bmp" />
+    <None Include="res\Timer.ico" />
+    <None Include="res\Timer.rc2" />
+    <None Include="res\Timer_run.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Timer.exe.manifest">
+      <SubType>Designer</SubType>
+    </Manifest>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Timer.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

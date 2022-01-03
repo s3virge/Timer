@@ -1,0 +1,465 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 201, 72
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Timer"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "Timer",IDC_STATIC,55,15,22,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012  Виталий Кобзарь",IDC_STATIC,55,35,139,8
+    DEFPUSHBUTTON   "OK",IDOK,144,51,50,14,WS_GROUP
+    LTEXT           "версия",IDC_VERSION,79,15,103,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 65
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_SETTINGS DIALOGEX 0, 0, 383, 171
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Установки"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_H,16,95,30,93,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_M,53,95,30,91,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_S,90,95,30,91,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Таймер",IDC_BTN_OPERETIONMODE,145,16,106,20
+    PUSHBUTTON      "Выключить",IDC_BTN_ACTION,145,49,106,20
+    PUSHBUTTON      "Выключить после ...",IDC_BTN_ADDITIONACTION,145,83,106,20,BS_MULTILINE | BS_FLAT
+    DEFPUSHBUTTON   "OK",IDOK,264,144,51,20
+    PUSHBUTTON      "Cancel",IDCANCEL,323,144,51,20
+    GROUPBOX        "Время срабатывания",IDC_REACTIONTIME,7,74,123,44
+    CTEXT           "Часы",IDC_HOUR,20,85,18,8
+    CTEXT           "Минуты",IDC_MINUTE,54,85,28,8
+    CTEXT           "Секунды",IDC_SECOND,89,85,32,8
+    GROUPBOX        "Что сделать",IDC_TODO,138,40,120,32
+    GROUPBOX        "Текущее время",IDC_CURRENTTIME,7,19,123,44
+    CTEXT           "00:00:00",IDC_CURREENT_TIME,25,33,87,18
+    GROUPBOX        "После ...",IDC_TODO_AFTER,138,74,120,32
+    GROUPBOX        "Режим работы",IDC_OPERATION_MODE,138,7,120,32
+    GROUPBOX        "Что сделать",IDC_TODO2,262,20,114,110
+    CTEXT           "Выключить через 00:00:00",IDC_FULL_COMMAND,267,33,102,91
+    PUSHBUTTON      "Выбрать сигнал",IDC_BTN_ALARMSIGNAL,145,116,106,20,BS_MULTILINE | BS_FLAT | WS_DISABLED
+    GROUPBOX        "Сигнал будильника",IDC_ALARM_SIGNAL,138,107,120,32
+    PUSHBUTTON      "Сбросить",IDC_BTN_RESET,145,144,106,20
+    PUSHBUTTON      "Сохранить параметры как стандартные",IDC_BTN_SAVESETTINGSASDEFAULT,18,144,106,20,BS_MULTILINE
+END
+
+IDD_DLG_WINDOWTOFOLLOW DIALOGEX 0, 0, 226, 91
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "За каким окном следить?"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,109,70,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,169,70,50,14
+    LTEXT           "Заголовок окна",IDC_WINDOW_TEXT,31,17,165,21
+    ICON            IDI_ICON_AIM,IDC_AIM,47,57,20,20,SS_NOTIFY
+    GROUPBOX        "Название окна",IDC_STATIC,7,7,212,38
+    CONTROL         "закрывать этот диалог после выбора нужного окна",IDC_CLOSEWINTOFOLLOWDLG,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,106,49,115,16
+END
+
+IDD_DLG_ALARMSIGNAL DIALOGEX 0, 0, 197, 98
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Сигнал будильника"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,83,77,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,139,77,50,14
+    PUSHBUTTON      "P l a y",IDC_BTN_PLAY,12,46,128,15
+    GROUPBOX        "",IDC_STATIC,7,3,182,66
+    GROUPBOX        "",IDC_STATIC,7,35,182,34
+    COMBOBOX        IDC_COMBO,12,18,128,137,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Brows",IDC_ADD,144,17,39,14
+END
+
+IDD_DLG_ADJUST DIALOGEX 0, 0, 256, 154
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Настройка"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,73,130,50,17
+    PUSHBUTTON      "Отмена",IDCANCEL,131,130,50,17
+    CONTROL         "Закрывать главное окно двойным щелчком мыши",IDC_CLOSEDOBLECLICK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,9,185,10
+    CONTROL         "Запускать задачу после закрытия окна Установки",IDC_STARTCLOSE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,20,191,10
+    CONTROL         "Запоминать положение главного окна при закрытии",IDC_KEEPPOSITION,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,31,195,10
+    CONTROL         "Сворачивать в область уведомлений",IDC_MINIMISETOSYSTEMAREA,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,42,219,10
+    CONTROL         "Включить защиту паролем",IDC_PASSWORD_PROTECTION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,53,123,10
+    COMBOBOX        IDC_COMBO_UILANGUAGE,67,106,120,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Язык",IDC_LANGUAGE,17,98,222,25
+    GROUPBOX        "",IDC_STATIC,7,3,242,94
+    CONTROL         "Запускать при старте системы",IDC_AUTORUN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,64,119,10
+    CONTROL         "Сворачивать при запуске задачи",IDC_MINIMISEWHENSTART,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,75,129,10
+    CONTROL         "Сразу запускать задачу",IDC_RUNTASK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,86,97,10
+END
+
+IDD_DLG_PASSWORD DIALOGEX 0, 0, 214, 107
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Пароль"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_NEW_PASSWORD,97,36,110,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_REPET_PASSWORD,97,56,110,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "ОК",IDOK,103,86,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,157,86,50,14
+    CONTROL         "Отображать вводимые символы",IDC_SHOW_PASS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,13,125,10
+    LTEXT           "Новый пароль:",IDC_STATIC,9,42,52,8
+    LTEXT           "Подтверждение пароля:",IDC_STATIC,9,59,85,8
+END
+
+IDD_DLG_GETPASSWORD DIALOGEX 0, 0, 137, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Введите пароль"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PASSWORD,7,15,123,14,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "Отмена",IDCANCEL,75,38,50,17
+    DEFPUSHBUTTON   "ОК",IDOK,11,38,50,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DLG_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_DLG_WINDOWTOFOLLOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_DLG_ALARMSIGNAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DLG_ADJUST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        VERTGUIDE, 17
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DLG_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+
+    IDD_DLG_GETPASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 130
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Timer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Timer.ico"
+IDI_ICON_RUN            ICON                    "res\\Timer_run.ico"
+IDI_ICON_AIM            ICON                    "res\\aim.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MAINWND             BITMAP                  "res\\MainWnd.bmp"
+IDB_BUTTON_CLOSE        BITMAP                  "res\\Close.bmp"
+IDB_BUTTON_MINIMIZE     BITMAP                  "res\\Minimize.bmp"
+IDB_BUTTON_STARTSTOP    BITMAP                  "res\\StarStop.bmp"
+IDB_BUTTON_SETTINGS     BITMAP                  "res\\Settings.bmp"
+IDB_BUTTON_ADJUST       BITMAP                  "res\\Adjust.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_BTN_ACTION MENU
+BEGIN
+    POPUP "Action Btn Menu"
+    BEGIN
+        MENUITEM "Выключить",                   ID_MI_ACTION_SHOTDOWN
+        MENUITEM "Перезагрузить",               ID_MI_ACTION_REBOOT
+        MENUITEM "Заблокировать",               ID_MI_ACTION_LOCK
+        MENUITEM "Подать сигнал",               ID_MI_ACTION_ALARM
+    END
+END
+
+IDR_MENU_BTN_OPERETIONMODE MENU
+BEGIN
+    POPUP "Operetion Mode"
+    BEGIN
+        MENUITEM "Таймер",                      ID_MI_OPERETIONMODE_TIMER
+        MENUITEM "Будильник",                   ID_MI_OPERETIONMODE_ALARM_CLOCK
+    END
+END
+
+IDR_MENU_BTN_ADDITIONACTION MENU
+BEGIN
+    POPUP "Addition_Action_Btn_menu"
+    BEGIN
+        MENUITEM "Зактытия окна",               ID_ADDITION_CLOSEWINDOW
+        MENUITEM "Завершения процесса",         ID_ADDITION_ENDPROCESS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,2,0,0
+ PRODUCTVERSION 0,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904e4"
+        BEGIN
+            VALUE "FileDescription", "Timer - управление питанием компьютера"
+            VALUE "FileVersion", "3.2.0.0"
+            VALUE "InternalName", "Timer.exe"
+            VALUE "OriginalFilename", "Timer.exe"
+            VALUE "ProductVersion", "0.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_AIM          CURSOR                  "res\\aim.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Timer..."
+    IDS_STRING_LANG_MESSAGE "Пожулуйста, перезапустите приложение для применения изменений"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MI_ACTION_REBOOT     "Перезагрузить компьютер"
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Английский (США) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TIMER_DIALOG DIALOGEX 0, 0, 210, 82
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW | WS_EX_LAYERED
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_TIMER_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 209
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Английский (США) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Timer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

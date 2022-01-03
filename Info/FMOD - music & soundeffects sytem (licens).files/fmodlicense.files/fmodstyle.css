@@ -1,0 +1,39 @@
+BODY {
+	BACKGROUND-COLOR: #055a75
+}
+UL {
+	FONT: 9pt Arial, Helvetica, sans-serif; COLOR: white
+}
+PRE {
+	COLOR: #dddddd
+}
+.inputfield {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; WIDTH: 424px; COLOR: black; FONT-FAMILY: Arial,Helvetica; POSITION: relative
+}
+A:link {
+	COLOR: #ffdeac
+}
+A:visited {
+	COLOR: #ffdeac
+}
+A:active {
+	COLOR: #ffdeac
+}
+A:hover {
+	CURSOR: hand; COLOR: #ffeebc; TEXT-DECORATION: underline
+}
+.size-07pt {
+	FONT: 8pt Arial, Verdana, Helvetica, sans-serif; COLOR: white
+}
+.size-08pt {
+	FONT: 8pt Verdana, Arial, Helvetica, sans-serif
+}
+.size-09pt {
+	FONT: 9pt Arial, Helvetica, sans-serif; COLOR: white
+}
+.bold-8pt {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bold-9pt {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Arial, Helvetica, sans-serif
+}

@@ -1,0 +1,114 @@
+//{{NO_DEPENDENCIES}}
+// Включаемый файл, созданный в Microsoft Visual C++.
+// Используется Timer.rc
+//
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_ABOUTBOX                    100
+#define IDS_ABOUTBOX                    101
+#define IDD_TIMER_DIALOG                102
+#define IDS_STRING_LANG_MESSAGE         103
+#define IDR_MAINFRAME                   128
+#define IDB_MAINWND                     129
+#define IDB_BUTTON_CLOSE                130
+#define IDB_BUTTON_MINIMIZE             131
+#define IDB_BUTTON_STARTSTOP            132
+#define IDB_BUTTON_SETTINGS             133
+#define IDD_DLG_SETTINGS                138
+#define IDR_MENU_BTN_ACTION             139
+#define IDR_MENU_BTN_OPERETIONMODE      140
+#define IDR_MENU_BTN_ADDITIONACTION     148
+#define IDD_DLG_WINDOWTOFOLLOW          149
+#define IDI_ICON_RUN                    150
+#define IDD_DLG_ALARMSIGNAL             151
+#define IDC_CURSOR_AIM                  152
+#define IDI_ICON_AIM                    153
+#define IDB_BUTTON_ADJUST               154
+#define IDD_DLG_ADJUST                  155
+#define IDD_DLG_PASSWORD                158
+#define IDD_DLG_GETPASSWORD             159
+#define IDC_COMBO_H                     1000
+#define IDC_COMBO_M                     1001
+#define IDC_COMBO_S                     1002
+#define IDC_BTN_ACTION                  1005
+#define IDC_BTN_OPERETIONMODE           1006
+#define IDC_STATIC_TIME8                1007
+#define IDC_ADD                         1007
+#define IDC_BTN_ADDITIONACTION          1007
+#define IDC_BTN_ALARMSIGNAL             1008
+#define IDC_CURREENT_TIME               1009
+#define IDC_COMBO_UILANGUAGE            1011
+#define IDC_BTN_PLAY                    1014
+#define IDC_STARTCLOSE                  1016
+#define IDC_CLOSEDOBLECLICK             1017
+#define IDC_COMBO                       1017
+#define IDC_KEEPPOSITION                1018
+#define IDC_BTN_ADDITION                1020
+#define IDC_STATIC_ADDITIONAL           1021
+#define IDC_TODO_AFTER                  1021
+#define IDC_FULL_COMMAND                1022
+#define IDC_WINDOW_TEXT                 1023
+#define IDC_AIM                         1024
+#define IDC_CLOSEWINTOFOLLOWDLG         1027
+#define IDC_MINIMISETOSYSTEMAREA        1027
+#define IDC_BTN_SCHEDULER               1028
+#define IDC_BUTTON1                     1029
+#define IDC_BTN_RESET                   1029
+#define IDC_CHECK1                      1038
+#define IDC_CHECK_SHOW_PASS             1038
+#define IDC_SHOW_PASS                   1038
+#define IDC_AUTORUN                     1038
+#define IDC_CHECK2                      1039
+#define IDC_MINIMASEWHENSTART           1039
+#define IDC_MINIMISEWHENSTART           1039
+#define IDC_CHECK3                      1040
+#define IDC_RUNTASK                     1040
+#define IDC_CHECK4                      1041
+#define IDC_CHECK5                      1042
+#define IDC_CHECK6                      1043
+#define IDC_CHECK7                      1044
+#define IDC_RADIO1                      1045
+#define IDC_RADIO2                      1046
+#define IDC_RADIO3                      1047
+#define IDC_COMBO2                      1048
+#define IDC_COMBO3                      1049
+#define IDC_COMBO4                      1050
+#define IDC_CHECK8                      1051
+#define IDC_PASSWORD_PROTECTION         1051
+#define IDC_EDIT1                       1052
+#define IDC_NEW_PASSWORD                1052
+#define IDC_PASSWORD                    1052
+#define IDC_EDIT2                       1053
+#define IDC_REPET_PASSWORD              1053
+#define IDC_CHECK9                      1054
+#define IDC_VERSION                     1055
+#define IDC_BTN_SAVESETTINGSASDEFAULT   1056
+#define IDC_LANGUAGE                    1057
+#define IDC_CURRENTTIME                 1058
+#define IDC_REACTIONTIME                1059
+#define IDC_HOUR                        1060
+#define IDC_MINUTE                      1061
+#define IDC_SECOND                      1062
+#define IDC_OPERATION_MODE              1063
+#define IDC_TODO                        1064
+#define IDC_ALARM_SIGNAL                1065
+#define IDC_TODO2                       1066
+#define ID_MI_ACTION_SHOTDOWN           32776
+#define ID_MI_ACTION_REBOOT             32778
+#define ID_MI_ACTION_LOCK               32780
+#define ID_MI_OPERETIONMODE_TIMER       32783
+#define ID_MI_OPERETIONMODE_ALARM_CLOCK 32784
+#define ID_MI_ACTION_ALARM              32786
+#define ID_ADDITION_ENDCOPY             32796
+#define ID_ADDITION_ENDPROCESS          32798
+#define ID_ADDITION_CLOSEWINDOW         32799
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        160
+#define _APS_NEXT_COMMAND_VALUE         32800
+#define _APS_NEXT_CONTROL_VALUE         1067
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
